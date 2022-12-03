@@ -10,7 +10,7 @@ typedef std::vector<std::vector<bool>> AvailabilityMatrix;
 
 // n-by-d matrix with the d worker IDs who are scheduled 
 // to work on each of the n days
-typedef std::vector<std::vector<Worker_T> > DailySchedule;
+typedef std::vector<std::vector<Worker_T>> DailySchedule;
 
 /**
  * @brief Produces a work schedule given worker availability,
